@@ -1,12 +1,19 @@
 [
+  "hubot-artsy",
+  "hubot-catme",
   "hubot-diagnostics",
-  "hubot-help",
-  "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
-  "hubot-pugme",
+  "hubot-help",
+  "hubot-highfive",
   "hubot-maps",
+  "hubot-nietzche",
+  "hubot-open-weather-map",
+  "hubot-pandapanda",
+  "hubot-pugme",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-speak",
+  "hubot-troll"
 ]
