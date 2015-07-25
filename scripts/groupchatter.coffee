@@ -66,7 +66,7 @@ module.exports = chatter.startup
 chatter.regex('doIt', /^do ?it([?.!]*|$)/i)
 
 # Play the classic "do it" gif
-chatter.addResponse('doIt', 'http://i.imgur.com/nFSebim.gif')
+chatter.addResponse('doIt', 'http://i.giphy.com/1346K2lPRNQwPm.gif')
 
 # Only answer once every 45 seconds at most
 chatter.throttle('doIt', 45)
