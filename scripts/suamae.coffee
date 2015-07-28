@@ -3,13 +3,13 @@ module.exports = (robot) ->
   robot.hear /(que|q|oq) (é|e|significa) (.+)\?/i, (res) ->
     res.send "#{res.match[3]} é a Sua Mãe™ aquela máquina de #{res.match[3]}ar"
 
-  robot.respond /bom dia|boa tarde|boa noite|olar?|como vai\??|tu?do? bem/i, (res) ->
+  robot.hear /bom dia|boa tarde|boa noite|olar?|como vai\??|tu?do? bem/i, (res) ->
     gifs = [
       "http://i.giphy.com/Sq8KpWNNNBk2I.gif"
       "http://i.giphy.com/j4DyJzc8OdIxq.gif"
       "http://i.giphy.com/ApZI1bdfxgABa.gif"
     ]
-    res.reply res.random gifs
+    res.send res.random gifs
 
   robot.respond /notice (me|us)|(nos|me) ame/i, (res) ->
     gifs = [
